@@ -5,4 +5,4 @@
 - Smart contract is built with Hardhat, Solidity, and Chai
 
 **Prerequisites**
-- Must have Metamask installed in order to use this application
+- Must have Metamask installed on browser
