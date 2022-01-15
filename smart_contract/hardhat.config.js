@@ -1,11 +1,13 @@
 require('@nomiclabs/hardhat-waffle');
 
+const { ROPSTEN_URL, METAMASK_PRIVATE_KEY } = require("./SecretVariables.js")
+
 module.exports = {
   solidity: '0.8.0',
   networks: {
     ropsten: {
-      url: 'https://eth-ropsten.alchemyapi.io/v2/6QHUUMPzzAE6psBKArL4K5yXKJBHQqP-',
-      accounts: [ 'd4d6b481c3d653af0777983bc508d5dc75c50538d7b68a9370a1af2c76efd5b2' ]
+      url: ROPSTEN_URL,
+      accounts: [ METAMASK_PRIVATE_KEY ]
     }
   }
 }
